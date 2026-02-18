@@ -41,7 +41,7 @@ void main(List<String> arguments) {
     }
     execution = choixUtilisateur != "q";
 
-    if (choixUtilisateur.length > 2) {
+    if (choixUtilisateur.length < 2) {
       stdout.writeln("[Erreur]: choix invalide");
       continue;
     }
